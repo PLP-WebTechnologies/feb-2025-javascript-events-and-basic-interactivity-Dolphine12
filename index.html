@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>DEMO: INTERATCIVE WEB PAGE</h1>
+
+  <!-- Button with event handling -->
+  <button id="changeTextBtn">Click me to change text</button>
+
+  <!-- Hover effect example -->
+  <div id="hoverBox">Hover over me!</div>
+
+  <!-- Keypress detection -->
+  <p>Press any key, and I'll tell you which one!</p>
+  <div id="keyPressOutput"></div>
+
+  <!-- Double click or long press (bonus) -->
+  <div id="secretAction">Double-click or hold me for a surprise!</div>
+
+  <!-- Interactive gallery (Image slideshow) -->
+  <div id="imageGallery">
+    <img src="images/html.png" alt="HTML">
+    <img src="images/css.jpg" alt="CSS">
+    <img src="images/JavaScript-Symbol.png" alt="JAVA">
+  </div>
+
+  <!-- Accordion -->
+  <div class="accordion">
+    <button class="accordionBtn">Section 1</button>
+    <div class="accordionContent">
+      <p>This is the first section content.</p>
+    </div>
+    <button class="accordionBtn">Section 2</button>
+    <div class="accordionContent">
+      <p>This is the second section content.</p>
+    </div>
+  </div>
+
+  <!-- Form with validation -->
+  <form id="myForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <span id="emailError" class="error"></span><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <span id="passwordError" class="error"></span><br>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <span id="nameError" class="error"></span><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
